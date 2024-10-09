@@ -1,0 +1,21 @@
+{
+  "name": "wow_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "restart": "npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nedb": "^1.8.16",
+    "guilded.js": "^0.25.0",
+    "nedb": "^1.8.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.6.2"
+  }
+}
